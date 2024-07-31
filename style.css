@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.container
+{
+background-color: rgb(229, 255, 0);
+color: black;
+margin: 5px;
+height: 200px;
+
+border: 2px rgb(255, 0, 0) solid;
+padding: 0%;
+
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+
+#headings {
+    color: rgb(255, 254, 254);
+    width:140px;
+    background-color: rgb(240, 142, 14);
+    font-weight: bold;
+    text-align: center;
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius:0px;
+    padding: 2px;
+    float:right;
+    overflow:auto;
+    margin-top: -2px;
+    
+}
+article{
+    float:left;
+    
+
+
+}
+
+p {
+    padding: 5px;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    text-align: justify;
+    clear: both;
+}
+.row {
+    width: 100%;
+}
+/*for a laptop or big screen*/
+@media (min-width:992px)
+{
+   #b1{
+    width: 32%;
+}
+#b2{
+    width: 32%; 
+}
+#b3{
+    width: 32%;
+}
+}
+
+/*for tabs*/
+@media (min-width:768px) and (max-width:991px)
+{
+    #b1{
+        width: 32%;
+    }
+    #b2{
+        width: 32%; 
+    }
+    #b3{
+        width: 100%;
+    }
+}
+
+/*for phones*/
+@media (max-width:767px)
+{
+    #b1{
+        width: 100%;
+    }
+    #b2{
+        width: 100%; 
+    }
+    #b3{
+        width: 100%;
+    }
+}
+
+.main{
+    background-color: burlywood;
+    color: #000;
+    border: #000 dotted 1px;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+}
